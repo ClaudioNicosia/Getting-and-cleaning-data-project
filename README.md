@@ -93,8 +93,8 @@ Script steps:
 	This dataset "data" was subsequently transformed via the melt function to prep it for next step. the 79 measures were transposed into rows and
 	in combination with subject, Activity_ID and Activity_label. 
 	The dcast function is used to calculate the mean for each of the 79 variables by the subject and Activity_label.
-	Finally the tidy dataset "tidy.txt" was output into a tab delimited including header row using the write.table function.
-    The header row features descriptions are included in the CodeBook file.
+	Finally the tidy dataset "tidy.txt" was output into a tab delimited text using the write.table function.
+    The cols / features descriptions are included in the CodeBook file.
 	
 Additional comments are included in the script as well.
 
