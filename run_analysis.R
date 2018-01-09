@@ -100,7 +100,7 @@ tidy_data   = dcast(long_data, subject + Activity_Label ~ variable, mean)
 
 # output tidy dataset 
 # Tab delimited txt file including col header 
-write.table(tidy_data, file = "./tidy.txt", sep="\t", col.names = F, row.names = F, quote = F)
+write.table(tidy_data, file = "./tidy.txt", sep="\t",  row.names = F, quote = F)
 
 
 ##################################################  
